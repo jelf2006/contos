@@ -1,0 +1,53 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box; /* Melhor prática para layout */
+}
+
+body {
+    background-color: #f0f0f0; /* Cor de fundo mais clara */
+    font-family: 'Roboto', sans-serif; /* Aplicando a fonte Roboto */
+    color: #333; /* Mudando a cor do texto para algo mais suave */
+}
+
+header {
+    background-color: #4CAF50; /* Cor verde para o cabeçalho */
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra sutil */
+    margin-bottom: 10px;
+}
+
+.div1 {
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; /* Deixa a largura da div1 responsiva */
+    max-width: 800px; /* Define uma largura máxima */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar a div */
+    transition: transform 0.3s ease; /* Animação suave quando o mouse passar sobre */
+}
+/* Efeito ao passar o mouse sobre a div1 */
+.div1:hover {
+    transform: scale(1.05); /* Aumenta levemente a div quando o mouse passa sobre */
+}
+
+/* Adicionei um estilo básico para o botão */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Animação suave ao clicar */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+}
